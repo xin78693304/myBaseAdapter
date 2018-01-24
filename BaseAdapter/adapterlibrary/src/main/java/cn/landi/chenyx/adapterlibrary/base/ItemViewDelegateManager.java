@@ -2,7 +2,7 @@ package cn.landi.chenyx.adapterlibrary.base;
 
 import android.support.v4.util.SparseArrayCompat;
 
-import com.zhy.adapter.abslistview.ViewHolder;
+import cn.landi.chenyx.adapterlibrary.ViewHolder;
 
 
 /**

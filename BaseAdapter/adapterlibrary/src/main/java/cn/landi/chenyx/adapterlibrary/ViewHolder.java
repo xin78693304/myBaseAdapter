@@ -94,10 +94,10 @@ public class ViewHolder
     }
 
 
-    /****以下为辅助方�?*****/
+    /****以下为辅助方法*****/
 
     /**
-     * 设置TextView的�??
+     * 设置TextView的值
      *
      * @param viewId
      * @param text
@@ -260,7 +260,7 @@ public class ViewHolder
     }
 
     /**
-     * 关于事件�?
+     * 关于事件的
      */
     public ViewHolder setOnClickListener(int viewId,
                                          View.OnClickListener listener)

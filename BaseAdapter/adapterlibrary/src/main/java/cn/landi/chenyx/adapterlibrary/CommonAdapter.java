@@ -1,11 +1,10 @@
 package cn.landi.chenyx.adapterlibrary;
 
 import android.content.Context;
-import android.view.View;
-
-import com.zhy.adapter.abslistview.base.ItemViewDelegate;
 
 import java.util.List;
+
+import cn.landi.chenyx.adapterlibrary.base.ItemViewDelegate;
 
 public abstract class CommonAdapter<T> extends MultiItemTypeAdapter<T>
 {

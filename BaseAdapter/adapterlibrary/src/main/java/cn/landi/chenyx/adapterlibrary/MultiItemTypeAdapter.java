@@ -6,10 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.zhy.adapter.abslistview.base.ItemViewDelegate;
-import com.zhy.adapter.abslistview.base.ItemViewDelegateManager;
-
 import java.util.List;
+
+import cn.landi.chenyx.adapterlibrary.base.ItemViewDelegate;
+import cn.landi.chenyx.adapterlibrary.base.ItemViewDelegateManager;
 
 public class MultiItemTypeAdapter<T> extends BaseAdapter {
     protected Context mContext;
@@ -35,8 +35,9 @@ public class MultiItemTypeAdapter<T> extends BaseAdapter {
 
     @Override
     public int getViewTypeCount() {
-        if (useItemViewDelegateManager())
+        if (useItemViewDelegateManager()) {
             return mItemViewDelegateManager.getItemViewDelegateCount();
+        }
         return super.getViewTypeCount();
     }
 
